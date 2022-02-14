@@ -1,0 +1,193 @@
+/* Основа */
+body{
+    margin: 0px;
+}
+/* Аббривиатура */
+abbr{
+    text-decoration: none;
+    color:rgb(115, 255, 0);
+}
+/* Н4 */
+h4{
+    display: inline;
+}
+mark{
+    background:rgba(236, 150, 38, 0.822);
+}
+/* Название */
+.title{
+    text-decoration: none;
+    font-size:40px ;
+}
+/* Шапка */
+header{
+    background: black;
+    width: 100%;
+    height: 17vh;
+    color:#F7630C;
+    font-size: 30px;
+    text-align: center;
+}
+/* Абзацы */
+p{
+    display: block;
+}
+/* Ссылки */
+nav{
+    background:#1A1818;
+    width:100%;
+    height: 7vh;
+    color: white;
+    text-align: initial;
+}
+a{
+    color:white;
+    font-size:20px;
+    margin-left: 10px;
+    text-decoration-color: #007ACC;
+}
+a:hover{
+    text-decoration-color: white;
+    color:#007ACC;
+}
+.type{
+color:#27A4D8;
+text-decoration: none;
+}
+
+/* фото пипы */
+section.img{
+    text-align:center;
+    background-image: url(/img/pipa.jpg);
+    background-size:100% 100%;
+    width: 100%;
+    height: 85vh;
+    color:white;
+}
+/* категория */
+.category{
+    
+     background-color: rgba(255, 255, 255, 0.3); /*уменьщение видемости */
+    border-radius: 5px;
+    font-size: 2em;
+    padding: 5px;
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 42vw;
+}
+/* Название животного */
+h2{
+    font-size: 3em;
+    margin-top: 5vh;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 45vw;
+}
+/* Животное */
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+/* информация */
+.info{
+    float:left;
+    width: 48%;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+/* Коментарии */
+.div.comments{
+    float:right;
+    width: 48%;
+    min-height:300px ;
+    margin-left: 5px;
+    font-size: 1.5em;
+    background-color:#DEF3F8;
+    color: #000;
+    padding:15px ;
+}
+
+.h.comments{
+    text-align: center;
+}
+ul{
+    font-size: 20px;
+}
+/* комментарий */
+.comment{
+width: 90%;
+height: 5rem;
+background-color:#007ACC;
+font-size: 1em;
+}
+/* иконка */
+.img.person{
+    float: left;
+    width: 4rem;
+    height: 4rem;
+    padding: 8px;
+    
+}
+span{
+    margin-left:15px;
+}
+
+.com{
+    width: 98%;
+    background-color:#E9F3F5;
+    text-align: center;
+}
+input{
+    width:80%;
+}
+#comment{
+    width:80%;
+}
+.ok{
+    width:20%;
+    background:purple;
+}.ok:hover{
+    background:pink;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color:#1A1818;
+    float: right;
+    color:white;
+}
+.AD{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 1.35em;
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+.left{
+    float:left;
+    font-size: 40px;
+}
+
+.apps{
+    float: right;
+    color:rgb(163, 159, 159);
+    font-size: 12px;
+    margin-top: 8vh;
+    margin-right: 5vw;
+}
+.app{
+    color:rgb(163, 159, 159) ;
+    font-size: 12px;
+}
+
+.plus{
+    float: right;
+    width: 48%;
+}
+img.plus{
+    width: 100%;
+    height:30em;
+    margin-top: 10em;
+}
